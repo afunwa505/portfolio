@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-size: large;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    
+}
+h2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#fb, #twitter, #instagram, #github, #whatsapp{
+    color: white;
+    margin: 10px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+.nav{
+    width: 20%;
+    height: 750px;
+    background: #000000;
+    color: #ffffff;
+    position: fixed;
+}
+.nav ol{
+    
+    list-style: none;
+}
+ol li{
+    
+    margin: 80px;
+}
+ol li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ol li a:hover{
+    color: #ff0066;
+    transition: all 1s linear;
+}
+.name-title{
+    width: 30%;
+    position: absolute;
+    top:10% ;
+    left: 23%;
+    color: #ffffff;
+}
+.scale-effect:hover{
+    transition: all 1s linear;
+    transform: scale(1.4);
+}
+.cv{
+    width: 23%;
+    height: 50px;
+    margin: 40px 0 0 0;
+    font-size: large;
+    background: #ff0066;
+    border: 3px solid #ff0066;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.cv:hover{
+    cursor:grab;
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    color: #ff0066;
+}
+.main-content{
+    width: 90%;
+    height: 750px;
+    background: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 0 20%;
+}
+.main-content2{
+    width: 90%;
+    height: 780px;
+    background: #333333;
+    color: #ffffff;
+    padding: 50px 30px 0 30px;
+    text-align: justify;
+    margin: 0 0 0 20%;
+}
+.main-content-img, .main-content-img2{
+    background: url('../image/afunwa1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+.main-content-text, .main-content-text2{
+    width: 35%;
+    height: 450px;
+    margin: 200px 0 0 0;
+}
+.main-content-img, .main-content-img2{
+    width: 35%;
+    height: 450px;
+    margin: 200px 0 0 0;
+}
+.social-media-logo{
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    top: 4%;
+    left: 23%;
+}
+#hamburger_menu, #close_button{
+    display: none;
+}
+.about-me{
+    width: 40%;
+    height: 50px;
+    font-size: large;
+    margin: 50px 0 90px 0;
+    cursor: grab;
+    background: #ff0066;
+    border: 1px solid #ff0066;
+    color: #ffffff;
+}
+.container1, .container2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-me:hover{
+    background-color: #ffffff;
+    color:#000000;
+}
+.container1 div{
+    width: 20%;
+    margin: 50px 0 0 0;
+    
+}
+.container2 div{
+    width: 20%;
+    margin: 50px 0 0 0;
+}
+#html-img{
+    background: url('../image/html-5.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#css-img{
+    background: url('../image/css-3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#js-img{
+    background: url('../image/js.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#js-img{
+    background: url('../image/js.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#jquery-img{
+    background: url('../image/jquery-sketch-symbol.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#bootstrap-img{
+    background: url('../image/bootstrap.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#react-img{
+    background: url('../image/atom.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.main-content3{
+    width: 90%;
+    height: 750px;
+    background: #333333;
+    color: #ffffff;
+    padding: 50px 30px 0 30px;
+    margin: 0 0 0 20%;
+}
+.container3, .container4{
+    display: flex;
+    justify-content: space-around;
+}
+.container3 div{
+    width: 40%;
+    height: 250px;
+    margin: 50px 0 20px 0;
+}
+.container4 div{
+    width: 40%;
+    height: 250px;
+}
+#img1{
+    background: url('../image/Screenshot\ 2022-01-28\ at\ 13-36-45\ Homepage.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img1:hover{
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+#img2{
+    background: url('../image/Screenshot\ 2022-02-16\ at\ 12-46-28\ Document.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img2:hover{
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+#img3{
+    background: url('../image/Screenshot\ 2022-10-05\ at\ 12-04-24\ Gym-House.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#img3:hover{
+    transform: scale(1.5);
+    transition: all 1s linear;
+}
+#img4{
+    background: url('../image/Screenshot\ 2022-02-16\ at\ 12-48-40\ Document.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.main-content4{
+    width: 90%;
+    height: 900px;
+    background: #333333;
+    color: #ffffff;
+    padding: 50px 30px 0 30px;
+    margin: 0 0 0 20%;
+}
+.main-content5{
+    width: 90%;
+    height: auto;
+    background: #333333;
+    color: #ffffff;
+    padding: 50px 30px 0 30px;
+    margin: 0 0 0 20%;
+}
+.main-content5 h1{
+    text-align: center;
+}
+
+@media screen and (max-width:575px) {
+    *{
+        padding:0;
+        margin: 0;
+        box-sizing: border-box;
+        line-height: 1.5em;
+        font-family: sans-serif;  
+    }
+    
+    .social-media-logo{
+        width: 50%;
+        height: 50px;
+        position: absolute;
+        top: 2%;
+        left: 10%;
+    }
+    .wrapper{
+        width: 100%;
+        display: block;
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        background: #000000;
+        color: #ffffff;
+        margin: 85px 0 0 0;
+        position: absolute;
+        transition: all 2s linear ;
+        opacity: 0;
+        
+    }
+    .nav ol{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    ol li{
+        padding: 10px 0 0 0;
+        margin: 0;
+
+    }
+    .main-content{
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 0;
+        flex-direction: column;
+        background: #333333;
+    }
+   
+    .main-content-text{
+        width: 70%;
+        height: 480px;
+        margin:40% 0 0 15%;
+        border: 1px solid grey;  
+        border-radius: 20px;
+        padding: 40px 20px 0 20px;
+        
+    }
+    .main-content-img{
+        width: 70%;
+        height: 480px;
+        margin:60px 0 0 15%;
+        border: 1px solid grey;  
+        border-radius: 20px; 
+    }
+    .about-me{
+        margin: 50px 0 40px 0;
+    }
+    #hamburger_menu {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 3%;
+        left: 86%;
+    }
+    #close_button{
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 3%;
+        left: 86%;
+        display: none;
+    }
+   
+    .main-content-img2{
+        width: 70%;
+        height: 480px;
+        margin:40% 0 0 15%;
+        border: 1px solid grey;
+        border-radius: 20px; 
+    }
+    .main-content-text2{
+        width: 70%;
+        height: auto;
+        margin:70px 0 0 15%;
+        border: 1px solid grey;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .name-title{
+        width: 90%;
+        top: 20%;
+    }
+    .main-content5{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 30% 30px 0 30px;
+        margin: 0 0 0 0;
+    }
+    .main-content2{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 30% 30px 0 30px;
+        text-align: justify;
+        margin: 0 0 0 0;
+    }
+    .container1 div{
+        width: 20%;
+        margin: 40px 0 0 0;
+    }
+  
+    .container2 div{
+        width: 20%;
+        margin: 40px 0 0 0;
+    }
+
+    
+    .main-content3{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 170px 30px 0 30px;
+        margin: 0;
+    }
+    
+    .main-content4{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 170px 30px 0 30px;
+        margin: 0;
+    }
+
+
+    .container3, .container4{
+        flex-direction: column;
+    }
+
+    .container3 div{
+        width: 70%;
+        height: 250px;
+        margin: 50px 0 20px 15%;
+    }
+
+    .container4 div{
+        width: 70%;
+        height: 250px;
+        margin: 50px 0 20px 15%;
+    }
+}
