@@ -452,7 +452,7 @@ ol li a:hover{
     
     .reveal{
         opacity: 0;
-        transition: 4s all ease;
+        transition: 3s all ease;
       }
       .reveal.active{
         opacity: 1;
