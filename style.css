@@ -263,6 +263,11 @@ ol li a:hover{
     color: white;
     margin: 10px 5px 0 0;
 }
+    .cv{
+    width: 30%;
+    height: 70px;
+    
+}
     
     .social-media-logo{
         width: 60%;
@@ -345,7 +350,7 @@ ol li a:hover{
     .main-content-img2{
         width: 90%;
         height: 480px;
-        margin:45% 0 0 5%;
+        margin:50% 0 0 5%;
         border: 1px solid grey;
         border-radius: 20px; 
     }
@@ -360,7 +365,7 @@ ol li a:hover{
     .name-title{
         width: 90%;
         top: 30%;
-        right: 5%;
+        padding: 0 70px 0 0;
     }
     .main-content5{
         width: 100%;
