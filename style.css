@@ -262,12 +262,7 @@ ol li a:hover{
     #fb, #twitter, #instagram, #github, #whatsapp{
     color: white;
     margin: 10px 5px 0 0;
-}
-    .cv{
-    width: 30%;
-    height: 70px;
-    
-}
+
     
     .social-media-logo{
         width: 60%;
@@ -301,6 +296,23 @@ ol li a:hover{
         margin: 0;
 
     }
+    
+      #hamburger_menu {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 3%;
+        left: 86%;
+    }
+    #close_button{
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        top: 3%;
+        left: 86%;
+        display: none;
+    }
+    
     .main-content{
         width: 100%;
         height: auto;
@@ -331,21 +343,7 @@ ol li a:hover{
         margin: 50px 0 40px 0;
         border-radius: 5px;
     }
-    #hamburger_menu {
-        color: #ffffff;
-        display: block;
-        position: absolute;
-        top: 3%;
-        left: 86%;
-    }
-    #close_button{
-        color: #ffffff;
-        display: block;
-        position: absolute;
-        top: 3%;
-        left: 86%;
-        display: none;
-    }
+  
    
     .main-content-img2{
         width: 90%;
@@ -362,20 +360,20 @@ ol li a:hover{
         border-radius: 20px;
         padding: 20px;
     }
+        }
+    .cv{
+    width: 30%;
+    height: 70px;
+    
+}
+    
     .name-title{
         width: 100%;
         top: 30%;
         left: 10%;
         padding: 0 0 70px 0;
     }
-    .main-content5{
-        width: 100%;
-        height: auto;
-        background: #333333;
-        color: #ffffff;
-        padding: 30% 30px 0 30px;
-        margin: 0 0 0 0;
-    }
+ 
     .main-content2{
         width: 100%;
         height: auto;
@@ -405,16 +403,6 @@ ol li a:hover{
         margin: 0;
     }
     
-    .main-content4{
-        width: 100%;
-        height: auto;
-        background: #333333;
-        color: #ffffff;
-        padding: 170px 30px 0 30px;
-        margin: 0;
-    }
-
-
     .container3, .container4{
         flex-direction: column;
     }
@@ -424,10 +412,32 @@ ol li a:hover{
         height: 250px;
         margin: 50px 0 20px 15%;
     }
+    
+       .main-content4{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 170px 30px 0 30px;
+        margin: 0;
+    }
 
     .container4 div{
         width: 70%;
         height: 250px;
         margin: 50px 0 20px 15%;
     }
+    
+       .main-content5{
+        width: 100%;
+        height: auto;
+        background: #333333;
+        color: #ffffff;
+        padding: 30% 30px 0 30px;
+        margin: 0 0 0 0;
+    }
+    
+    .main-content5 h1{
+    marging:40px 0 0 0 ;
+}
 }
