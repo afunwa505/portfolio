@@ -282,7 +282,7 @@ ol li a:hover{
         color: #ffffff;
         margin: 85px 0 0 0;
         position: absolute;
-        transition: all 2s linear ;
+        transition: all 1s linear ;
         opacity: 0;   
     }
     
@@ -316,7 +316,7 @@ ol li a:hover{
     
     .main-content{
         width: 100%;
-        height: auto;
+        height: 1400px;
         margin: 0 0 0 0;
         flex-direction: column;
         background: #333333;
