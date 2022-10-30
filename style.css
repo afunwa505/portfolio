@@ -259,12 +259,17 @@ ol li a:hover{
         font-family: sans-serif;  
     }
     
+    #fb, #twitter, #instagram, #github, #whatsapp{
+    color: white;
+    margin: 10px 3px 0 0;
+}
+    
     .social-media-logo{
         width: 50%;
         height: 50px;
         position: absolute;
         top: 2%;
-        left: 10%;
+        left: 5%;
     }
     .wrapper{
         width: 100%;
@@ -300,8 +305,8 @@ ol li a:hover{
     }
    
     .main-content-text{
-        width: 70%;
-        height: 480px;
+        width: 90%;
+        height: 550px;
         margin:40% 0 0 15%;
         border: 1px solid grey;  
         border-radius: 20px;
@@ -316,6 +321,8 @@ ol li a:hover{
         border-radius: 20px; 
     }
     .about-me{
+        width: 50%;
+        height: 70px;
         margin: 50px 0 40px 0;
     }
     #hamburger_menu {
