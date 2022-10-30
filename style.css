@@ -449,4 +449,12 @@ ol li a:hover{
   .main-content5 h1{
      padding: 50px 0 0 0; 
     }
+    
+    .reveal{
+        opacity: 0;
+        transition: 4s all ease;
+      }
+      .reveal.active{
+        opacity: 1;
+      }
 }
