@@ -388,6 +388,10 @@ ol li a:hover{
         margin: 0 0 0 0;
     }
     
+    .main-content2 h1{
+     padding: 50px 0 0 0; 
+    }
+    
     .container1 div{
         width: 20%;
         margin: 40px 0 0 0;
