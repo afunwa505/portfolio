@@ -343,23 +343,24 @@ ol li a:hover{
     }
    
     .main-content-img2{
-        width: 70%;
+        width: 90%;
         height: 480px;
-        margin:40% 0 0 15%;
+        margin:45% 0 0 5%;
         border: 1px solid grey;
         border-radius: 20px; 
     }
     .main-content-text2{
-        width: 70%;
+        width: 90%;
         height: auto;
-        margin:70px 0 0 15%;
+        margin:70px 0 0 5%;
         border: 1px solid grey;
         border-radius: 20px;
         padding: 20px;
     }
     .name-title{
         width: 90%;
-        top: 20%;
+        top: 30%;
+        right: 5%;
     }
     .main-content5{
         width: 100%;
