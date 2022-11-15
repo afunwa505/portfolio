@@ -17,6 +17,7 @@ h2 a{
 
 #fb, #twitter, #instagram, #github, #whatsapp{
     color: white;
+    width: 20px;
     margin: 10px;
 }
 
